@@ -7,5 +7,9 @@ if contry == '台灣':
 	else:
 		print('你還不能考駕照')
 elif contry == '美國':
-	if age >= 20:
-		
+	if age >= 16:
+		print('你可以考駕照')
+	else:
+		print('你還不能考駕照')
+else:
+	print('不在此次調查之內')
