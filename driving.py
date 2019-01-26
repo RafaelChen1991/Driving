@@ -12,4 +12,4 @@ elif contry == '美國':
 	else:
 		print('你還不能考駕照')
 else:
-	print('不在此次調查之內')
+	print('只能輸入 台灣/美國')
